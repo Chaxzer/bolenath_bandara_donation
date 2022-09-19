@@ -1,0 +1,57 @@
+* {
+    list-style: none;
+box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia;
+}
+
+nav {
+    background-color: rgb(237, 237, 237);
+    height:100px;
+    width:100%;
+}
+
+label.Home_logo { 
+    color:rgb(209, 190, 162);
+    font-size:35px;
+    line-height:80px;
+    padding:0px 100px;
+    font-weight: bold;
+}
+
+/* CHANGING THINGS IN NAV ULIST AND ALL LIST ITEMS */
+
+nav ul {
+    float:right;
+    margin-right:20px;
+}
+
+
+/* CHANGING THINGS IN NAV ULIST AND ALL LIST ITEMS */
+
+nav ul li {
+                                 /* DISPLAY INLINE BLOCK */
+ display:inline-block;  
+                                /* SETTING UP HEIGHT OF MEU LINE */
+ line-height:80px;
+                                /* USING A MARGIN AS SPACES 00 FROM AVOBE AND 10 PX GAPS */
+ margin:0px 20px;
+}
+
+/* CHANGING THINGS IN NAV ULIST AND ALL LIST ITEMS ALONG WITH LINK  */
+nav ul li a{
+    color:rgb(209, 190, 162);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3PX;
+
+}
+
+/* ACTIVE LINK */
+
+a.active,a:hover {
+
+}
